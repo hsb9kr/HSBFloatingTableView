@@ -1,0 +1,16 @@
+PODS:
+  - HSBFloatingTableView (0.1.0)
+
+DEPENDENCIES:
+  - HSBFloatingTableView (from `../`)
+
+EXTERNAL SOURCES:
+  HSBFloatingTableView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HSBFloatingTableView: 558916d77309165094fda52d07b95b95c3b44cad
+
+PODFILE CHECKSUM: 5bd1f34bc82f4e06d74c1c255f7cf0b0233c3353
+
+COCOAPODS: 1.5.3

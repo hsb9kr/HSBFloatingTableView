@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A86A74CA20F2D4E439D0C2C14666863 /* HSBFloatingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C8A84E87D4512D19680798AA162AB3 /* HSBFloatingTableView.swift */; };
+		4A44A5326868124D1D3BB352B0B923AF /* HSBFloatingTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D78E12BD9E46E9141930D6078639E9F /* HSBFloatingTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F28ECEFF09DEF54B048DE34C761096C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		55F320B5863628C9ADF470E6828C7F8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6CDDBF881578363DC96A68FF41E504D8 /* HSBFloatingTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6B5107B7F4A12E481014B282BD35E9 /* HSBFloatingTableView-dummy.m */; };
+		7DE44C7E9EF7BBE028D9084DAB25CDA3 /* Pods-HSBFloatingTableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB77F04FD818AA2457013813D3B427D /* Pods-HSBFloatingTableView_Tests-dummy.m */; };
+		9F926EF2C1B5BCCE8637F3590A9EC2D7 /* Pods-HSBFloatingTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C14ABFF4A0DF5EC3F136AB5FBC054F /* Pods-HSBFloatingTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C663224896BA5310A94AA7D95A5A90D2 /* Pods-HSBFloatingTableView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C700B29D64465593647A7971A21DEF5 /* Pods-HSBFloatingTableView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C862768D2609FD756948C0F3695B3FC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		FA4D97309617DB05DCCBE6CB7BC4859A /* Pods-HSBFloatingTableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D87C34B917D2CF94B24F0CBC57CDC5D /* Pods-HSBFloatingTableView_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8553B7C3CF75C6375F4D423D0C1A8068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D38D44AEEF5A71804B1E918609A5CDB;
+			remoteInfo = HSBFloatingTableView;
+		};
+		D0F4BF75F9B34A1F167E9445F9C4B348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD12AC82A793600E293E7C0810D3D329;
+			remoteInfo = "Pods-HSBFloatingTableView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C14ABFF4A0DF5EC3F136AB5FBC054F /* Pods-HSBFloatingTableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HSBFloatingTableView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		119623F37F9A5493C20791B6BDB5007B /* Pods-HSBFloatingTableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HSBFloatingTableView_Tests.modulemap"; sourceTree = "<group>"; };
+		1536BFB2E14F8804857E4CD23EB3B9BE /* Pods_HSBFloatingTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSBFloatingTableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17568CB9D6B16FA7999534A1504D8EE9 /* Pods-HSBFloatingTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSBFloatingTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1E634FFD0F4BAC0ACDAFB9D7190C4D69 /* Pods-HSBFloatingTableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSBFloatingTableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F6B5107B7F4A12E481014B282BD35E9 /* HSBFloatingTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HSBFloatingTableView-dummy.m"; sourceTree = "<group>"; };
+		22115C6F6D36F9EF0C3C5CAF60B3D517 /* Pods-HSBFloatingTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSBFloatingTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		23731ACB924F0A74985AE065BCD0E0FB /* Pods-HSBFloatingTableView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSBFloatingTableView_Tests-resources.sh"; sourceTree = "<group>"; };
+		2D78E12BD9E46E9141930D6078639E9F /* HSBFloatingTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSBFloatingTableView-umbrella.h"; sourceTree = "<group>"; };
+		2D87C34B917D2CF94B24F0CBC57CDC5D /* Pods-HSBFloatingTableView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HSBFloatingTableView_Example-dummy.m"; sourceTree = "<group>"; };
+		32B0C6C4736CCC6377E1E65CEE9647DF /* Pods_HSBFloatingTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSBFloatingTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C700B29D64465593647A7971A21DEF5 /* Pods-HSBFloatingTableView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HSBFloatingTableView_Example-umbrella.h"; sourceTree = "<group>"; };
+		4BD8805582BD3DFC23C643F9957F9B5E /* Pods-HSBFloatingTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSBFloatingTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CEF40CDA66C7888E0AECA1D13A42F65 /* Pods-HSBFloatingTableView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HSBFloatingTableView_Example.modulemap"; sourceTree = "<group>"; };
+		544FD1D989A4670780D1D4204B676924 /* Pods-HSBFloatingTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSBFloatingTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		555C1324ABE8A0C91D131DE50D623975 /* Pods-HSBFloatingTableView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSBFloatingTableView_Example-resources.sh"; sourceTree = "<group>"; };
+		5866DF9DABA158DCD9F1FA5177CB7980 /* HSBFloatingTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HSBFloatingTableView.xcconfig; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5F768614E572106DAE82A0F115621F71 /* HSBFloatingTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HSBFloatingTableView.modulemap; sourceTree = "<group>"; };
+		6699CEDEF867C3957937CED285FB6131 /* HSBFloatingTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HSBFloatingTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB77F04FD818AA2457013813D3B427D /* Pods-HSBFloatingTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HSBFloatingTableView_Tests-dummy.m"; sourceTree = "<group>"; };
+		83ADF189BAB64A5575E57C9719D0AF4A /* Pods-HSBFloatingTableView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSBFloatingTableView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		975FD2750095AE5C38C061BB657168F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B86850FD0F9EF0FB4F39A779356487F7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C3146495279F90FDCE859D84AA3C06A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9CA548CF4EAB300614E44F630DDC2FB /* Pods-HSBFloatingTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HSBFloatingTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DBA5C627FBF25C99FCEE6ECA6EB05998 /* Pods-HSBFloatingTableView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSBFloatingTableView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E31176499851BCE74C532E371B4C176D /* Pods-HSBFloatingTableView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HSBFloatingTableView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E546DA5874BFDFD3FB8708E4B201904D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E668B0DD9A010FFA65B7725D017D53DF /* HSBFloatingTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HSBFloatingTableView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ED0F00B48A80F8CEF41DBBFA4BE302FA /* Pods-HSBFloatingTableView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSBFloatingTableView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1C8A84E87D4512D19680798AA162AB3 /* HSBFloatingTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HSBFloatingTableView.swift; path = HSBFloatingTableView/Classes/HSBFloatingTableView.swift; sourceTree = "<group>"; };
+		F6AC1C1FDB3505D8BA7FE56DA6EAE4AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB17B42538AC9061C07B62AE6C08D37 /* HSBFloatingTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSBFloatingTableView-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06CA3E4AB5D6B46156612BF769EF0C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F28ECEFF09DEF54B048DE34C761096C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1180864B66FC0AFE320A3A1D2C24B8B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F320B5863628C9ADF470E6828C7F8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29D6126CF717145C246B6EADD15490B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C862768D2609FD756948C0F3695B3FC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		005E50A8D5891DA88121A87F65979257 /* Pods-HSBFloatingTableView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F6AC1C1FDB3505D8BA7FE56DA6EAE4AA /* Info.plist */,
+				119623F37F9A5493C20791B6BDB5007B /* Pods-HSBFloatingTableView_Tests.modulemap */,
+				C9CA548CF4EAB300614E44F630DDC2FB /* Pods-HSBFloatingTableView_Tests-acknowledgements.markdown */,
+				1E634FFD0F4BAC0ACDAFB9D7190C4D69 /* Pods-HSBFloatingTableView_Tests-acknowledgements.plist */,
+				7CB77F04FD818AA2457013813D3B427D /* Pods-HSBFloatingTableView_Tests-dummy.m */,
+				DBA5C627FBF25C99FCEE6ECA6EB05998 /* Pods-HSBFloatingTableView_Tests-frameworks.sh */,
+				23731ACB924F0A74985AE065BCD0E0FB /* Pods-HSBFloatingTableView_Tests-resources.sh */,
+				04C14ABFF4A0DF5EC3F136AB5FBC054F /* Pods-HSBFloatingTableView_Tests-umbrella.h */,
+				4BD8805582BD3DFC23C643F9957F9B5E /* Pods-HSBFloatingTableView_Tests.debug.xcconfig */,
+				22115C6F6D36F9EF0C3C5CAF60B3D517 /* Pods-HSBFloatingTableView_Tests.release.xcconfig */,
+			);
+			name = "Pods-HSBFloatingTableView_Tests";
+			path = "Target Support Files/Pods-HSBFloatingTableView_Tests";
+			sourceTree = "<group>";
+		};
+		0E1F4EF687C3E6DDC6DFCCEBEF95BE18 /* HSBFloatingTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F1C8A84E87D4512D19680798AA162AB3 /* HSBFloatingTableView.swift */,
+				EA3A397526E6AF8EE7C7FDE575ABA7DB /* Pod */,
+				7D1A56F2C10F4C53FCD2E429E02233EC /* Support Files */,
+			);
+			name = HSBFloatingTableView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		237742AD4BD10F4551884B6A9E0584CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6699CEDEF867C3957937CED285FB6131 /* HSBFloatingTableView.framework */,
+				1536BFB2E14F8804857E4CD23EB3B9BE /* Pods_HSBFloatingTableView_Example.framework */,
+				32B0C6C4736CCC6377E1E65CEE9647DF /* Pods_HSBFloatingTableView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		74A00BF5895267E568590D6D389D4FD4 /* Pods-HSBFloatingTableView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E546DA5874BFDFD3FB8708E4B201904D /* Info.plist */,
+				4CEF40CDA66C7888E0AECA1D13A42F65 /* Pods-HSBFloatingTableView_Example.modulemap */,
+				E31176499851BCE74C532E371B4C176D /* Pods-HSBFloatingTableView_Example-acknowledgements.markdown */,
+				ED0F00B48A80F8CEF41DBBFA4BE302FA /* Pods-HSBFloatingTableView_Example-acknowledgements.plist */,
+				2D87C34B917D2CF94B24F0CBC57CDC5D /* Pods-HSBFloatingTableView_Example-dummy.m */,
+				83ADF189BAB64A5575E57C9719D0AF4A /* Pods-HSBFloatingTableView_Example-frameworks.sh */,
+				555C1324ABE8A0C91D131DE50D623975 /* Pods-HSBFloatingTableView_Example-resources.sh */,
+				3C700B29D64465593647A7971A21DEF5 /* Pods-HSBFloatingTableView_Example-umbrella.h */,
+				17568CB9D6B16FA7999534A1504D8EE9 /* Pods-HSBFloatingTableView_Example.debug.xcconfig */,
+				544FD1D989A4670780D1D4204B676924 /* Pods-HSBFloatingTableView_Example.release.xcconfig */,
+			);
+			name = "Pods-HSBFloatingTableView_Example";
+			path = "Target Support Files/Pods-HSBFloatingTableView_Example";
+			sourceTree = "<group>";
+		};
+		7D1A56F2C10F4C53FCD2E429E02233EC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F768614E572106DAE82A0F115621F71 /* HSBFloatingTableView.modulemap */,
+				5866DF9DABA158DCD9F1FA5177CB7980 /* HSBFloatingTableView.xcconfig */,
+				1F6B5107B7F4A12E481014B282BD35E9 /* HSBFloatingTableView-dummy.m */,
+				FAB17B42538AC9061C07B62AE6C08D37 /* HSBFloatingTableView-prefix.pch */,
+				2D78E12BD9E46E9141930D6078639E9F /* HSBFloatingTableView-umbrella.h */,
+				C3146495279F90FDCE859D84AA3C06A5 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HSBFloatingTableView";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9ABEAC416344F8ECB7C1AF655DD4C34D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				237742AD4BD10F4551884B6A9E0584CE /* Products */,
+				FBFF559078CD4E5E0BE5C799641F18BF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9ABEAC416344F8ECB7C1AF655DD4C34D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F4EF687C3E6DDC6DFCCEBEF95BE18 /* HSBFloatingTableView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA3A397526E6AF8EE7C7FDE575ABA7DB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E668B0DD9A010FFA65B7725D017D53DF /* HSBFloatingTableView.podspec */,
+				B86850FD0F9EF0FB4F39A779356487F7 /* LICENSE */,
+				975FD2750095AE5C38C061BB657168F1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FBFF559078CD4E5E0BE5C799641F18BF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74A00BF5895267E568590D6D389D4FD4 /* Pods-HSBFloatingTableView_Example */,
+				005E50A8D5891DA88121A87F65979257 /* Pods-HSBFloatingTableView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		68A562D8218D9E93D9375BD45CFEB2D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A44A5326868124D1D3BB352B0B923AF /* HSBFloatingTableView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A8B95302F507CB4C3672BC9AC11C798 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F926EF2C1B5BCCE8637F3590A9EC2D7 /* Pods-HSBFloatingTableView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0402D95D1638093204FC4322B52F17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C663224896BA5310A94AA7D95A5A90D2 /* Pods-HSBFloatingTableView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D38D44AEEF5A71804B1E918609A5CDB /* HSBFloatingTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3685CF993A6CB463F02F52E4A17D647D /* Build configuration list for PBXNativeTarget "HSBFloatingTableView" */;
+			buildPhases = (
+				2FCEC81C40493B51D19DC4662C764515 /* Sources */,
+				06CA3E4AB5D6B46156612BF769EF0C00 /* Frameworks */,
+				68A562D8218D9E93D9375BD45CFEB2D5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSBFloatingTableView;
+			productName = HSBFloatingTableView;
+			productReference = 6699CEDEF867C3957937CED285FB6131 /* HSBFloatingTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		656509281E60C0308E717CE2EF2A0942 /* Pods-HSBFloatingTableView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76ACDF88F8B7E7FC3AC3DF884F8CD201 /* Build configuration list for PBXNativeTarget "Pods-HSBFloatingTableView_Tests" */;
+			buildPhases = (
+				2E9C10EF4EF77EB9818E597310699B93 /* Sources */,
+				D29D6126CF717145C246B6EADD15490B /* Frameworks */,
+				7A8B95302F507CB4C3672BC9AC11C798 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBAAD3E0FC022BC894C4C1495620DC31 /* PBXTargetDependency */,
+			);
+			name = "Pods-HSBFloatingTableView_Tests";
+			productName = "Pods-HSBFloatingTableView_Tests";
+			productReference = 32B0C6C4736CCC6377E1E65CEE9647DF /* Pods_HSBFloatingTableView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD12AC82A793600E293E7C0810D3D329 /* Pods-HSBFloatingTableView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0609150C07A62E854B83442C0563B3DD /* Build configuration list for PBXNativeTarget "Pods-HSBFloatingTableView_Example" */;
+			buildPhases = (
+				59244946842B57C67A568FA5DAFC08DA /* Sources */,
+				1180864B66FC0AFE320A3A1D2C24B8B5 /* Frameworks */,
+				CA0402D95D1638093204FC4322B52F17 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92109CB0AFEB7F4B9BBE0F5F8512DB6F /* PBXTargetDependency */,
+			);
+			name = "Pods-HSBFloatingTableView_Example";
+			productName = "Pods-HSBFloatingTableView_Example";
+			productReference = 1536BFB2E14F8804857E4CD23EB3B9BE /* Pods_HSBFloatingTableView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1000;
+				TargetAttributes = {
+					1D38D44AEEF5A71804B1E918609A5CDB = {
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 237742AD4BD10F4551884B6A9E0584CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D38D44AEEF5A71804B1E918609A5CDB /* HSBFloatingTableView */,
+				DD12AC82A793600E293E7C0810D3D329 /* Pods-HSBFloatingTableView_Example */,
+				656509281E60C0308E717CE2EF2A0942 /* Pods-HSBFloatingTableView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E9C10EF4EF77EB9818E597310699B93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE44C7E9EF7BBE028D9084DAB25CDA3 /* Pods-HSBFloatingTableView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FCEC81C40493B51D19DC4662C764515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CDDBF881578363DC96A68FF41E504D8 /* HSBFloatingTableView-dummy.m in Sources */,
+				1A86A74CA20F2D4E439D0C2C14666863 /* HSBFloatingTableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59244946842B57C67A568FA5DAFC08DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4D97309617DB05DCCBE6CB7BC4859A /* Pods-HSBFloatingTableView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92109CB0AFEB7F4B9BBE0F5F8512DB6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HSBFloatingTableView;
+			target = 1D38D44AEEF5A71804B1E918609A5CDB /* HSBFloatingTableView */;
+			targetProxy = 8553B7C3CF75C6375F4D423D0C1A8068 /* PBXContainerItemProxy */;
+		};
+		CBAAD3E0FC022BC894C4C1495620DC31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HSBFloatingTableView_Example";
+			target = DD12AC82A793600E293E7C0810D3D329 /* Pods-HSBFloatingTableView_Example */;
+			targetProxy = D0F4BF75F9B34A1F167E9445F9C4B348 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13955DE7407789D4F99B7C586E64577A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17568CB9D6B16FA7999534A1504D8EE9 /* Pods-HSBFloatingTableView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HSBFloatingTableView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSBFloatingTableView_Example/Pods-HSBFloatingTableView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25EE185D556187822000C919036F5F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD8805582BD3DFC23C643F9957F9B5E /* Pods-HSBFloatingTableView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HSBFloatingTableView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSBFloatingTableView_Tests/Pods-HSBFloatingTableView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		311AAB1A94B13BA80C568950EDC7F680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 544FD1D989A4670780D1D4204B676924 /* Pods-HSBFloatingTableView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HSBFloatingTableView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSBFloatingTableView_Example/Pods-HSBFloatingTableView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		397DFBE12D49FBF065457546BE71A2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22115C6F6D36F9EF0C3C5CAF60B3D517 /* Pods-HSBFloatingTableView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HSBFloatingTableView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSBFloatingTableView_Tests/Pods-HSBFloatingTableView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DB98A7B89298A631C77F2A54A1C9D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5866DF9DABA158DCD9F1FA5177CB7980 /* HSBFloatingTableView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HSBFloatingTableView/HSBFloatingTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HSBFloatingTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HSBFloatingTableView/HSBFloatingTableView.modulemap";
+				PRODUCT_MODULE_NAME = HSBFloatingTableView;
+				PRODUCT_NAME = HSBFloatingTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BC653E85D11491FBDEF1B6C59DB09F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5866DF9DABA158DCD9F1FA5177CB7980 /* HSBFloatingTableView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HSBFloatingTableView/HSBFloatingTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HSBFloatingTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HSBFloatingTableView/HSBFloatingTableView.modulemap";
+				PRODUCT_MODULE_NAME = HSBFloatingTableView;
+				PRODUCT_NAME = HSBFloatingTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0609150C07A62E854B83442C0563B3DD /* Build configuration list for PBXNativeTarget "Pods-HSBFloatingTableView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13955DE7407789D4F99B7C586E64577A /* Debug */,
+				311AAB1A94B13BA80C568950EDC7F680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3685CF993A6CB463F02F52E4A17D647D /* Build configuration list for PBXNativeTarget "HSBFloatingTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC653E85D11491FBDEF1B6C59DB09F1C /* Debug */,
+				5DB98A7B89298A631C77F2A54A1C9D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76ACDF88F8B7E7FC3AC3DF884F8CD201 /* Build configuration list for PBXNativeTarget "Pods-HSBFloatingTableView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EE185D556187822000C919036F5F37 /* Debug */,
+				397DFBE12D49FBF065457546BE71A2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

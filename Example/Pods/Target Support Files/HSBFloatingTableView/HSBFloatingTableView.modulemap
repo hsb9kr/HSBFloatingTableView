@@ -1,0 +1,6 @@
+framework module HSBFloatingTableView {
+  umbrella header "HSBFloatingTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

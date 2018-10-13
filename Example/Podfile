@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HSBFloatingTableView_Example' do
+  pod 'HSBFloatingTableView', :path => '../'
+
+  target 'HSBFloatingTableView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

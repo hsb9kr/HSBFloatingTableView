@@ -1,0 +1,22 @@
+{
+  "name": "HSBFloatingTableView",
+  "version": "0.1.0",
+  "summary": "A short description of HSBFloatingTableView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Red/HSBFloatingTableView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Red": "hsb9kr@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Red/HSBFloatingTableView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HSBFloatingTableView/Classes/**/*"
+}
