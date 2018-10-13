@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HSBFloatingTableView'
   s.version          = '0.0.1'
-  s.summary          = 'Dropdown tableview of HSBFloatingTableView.'
+  s.summary          = 'Dropdown tableview'
   s.swift_version    = '4.2'
   
   s.description      = <<-DESC
