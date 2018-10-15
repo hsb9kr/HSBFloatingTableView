@@ -33,12 +33,15 @@ class ViewController: UIViewController {
 		tableView.dataSource = self
 		tableView.embedView = aView
 		tableView.backgroundColor = #colorLiteral(red: 0.5725490451, green: 0, blue: 0.2313725501, alpha: 1)
-		tableView.position = .top
+		tableView.position = .bottom
 		tableView.isMargin = true
 		tableView.margin = 50
-		tableView.show()
 	}
 
+	@IBAction func didTouchUpInsideButton(_ sender: Any) {
+		
+		tableView.isHidden = !tableView.isHidden
+	}
 }
 
 extension ViewController: UITableViewDataSource {

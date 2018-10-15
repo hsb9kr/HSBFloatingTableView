@@ -5,6 +5,17 @@ public class HSBFloatingTableView: UITableView {
 		case top
 		case bottom
 	}
+	
+	public override var isHidden: Bool {
+		
+		didSet {
+			if isHidden {
+				removeFromSuperview()
+			} else {
+				resizeView()
+			}
+		}
+	}
 	public var isMargin = false
 	public var margin: CGFloat = 0
 	public var position: Position = .bottom
@@ -12,19 +23,21 @@ public class HSBFloatingTableView: UITableView {
 	public var maxHeight: CGFloat?
 	public var width: CGFloat?
 	
-	public func show() {
-		resizeView()
+	public override init(frame: CGRect, style: UITableView.Style) {
+		super.init(frame: frame, style: style)
+		isHidden = true
 	}
 	
-	public func hide() {
-		removeFromSuperview()
+	public required init?(coder aDecoder: NSCoder) {
+		super.init(coder: aDecoder)
+		isHidden = true
 	}
 	
 	fileprivate func resizeView() {
 		
 		removeFromSuperview()
 		
-		guard let view = embedView, let superview = superview(view: view) else {
+		guard !isHidden, let view = embedView, let superview = superview(view: view) else {
 			return
 		}
 		

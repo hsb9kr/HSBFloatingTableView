@@ -41,9 +41,18 @@
                                     <constraint firstItem="L48-Hu-Tnp" firstAttribute="centerY" secondItem="9cX-nu-cbE" secondAttribute="centerY" id="yue-1g-5Ex"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rm3-pX-5yr">
+                                <rect key="frame" x="164.5" y="617" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="didTouchUpInsideButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="TJE-F6-e5I"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="rm3-pX-5yr" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="AO9-3l-szQ"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="rm3-pX-5yr" secondAttribute="bottom" constant="20" id="Xw3-pT-yu8"/>
                             <constraint firstItem="9cX-nu-cbE" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="aYf-gl-4PR"/>
                             <constraint firstItem="9cX-nu-cbE" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="itA-05-rX2"/>
                             <constraint firstItem="9cX-nu-cbE" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="64" id="yvH-JG-Fek"/>
