@@ -21,19 +21,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L48-Hu-Tnp">
-                                <rect key="frame" x="16" y="220" width="343" height="70"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9cX-nu-cbE">
+                                <rect key="frame" x="16" y="84" width="343" height="128"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L48-Hu-Tnp">
+                                        <rect key="frame" x="0.0" y="29" width="343" height="70"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="5ps-qS-yUU"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99215686270000003" green="0.74117647060000003" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="5ps-qS-yUU"/>
+                                    <constraint firstAttribute="height" constant="128" id="aWI-ot-9gt"/>
+                                    <constraint firstItem="L48-Hu-Tnp" firstAttribute="leading" secondItem="9cX-nu-cbE" secondAttribute="leadingMargin" constant="-8" id="csg-Sn-BFH"/>
+                                    <constraint firstItem="L48-Hu-Tnp" firstAttribute="centerX" secondItem="9cX-nu-cbE" secondAttribute="centerX" id="l5z-Cm-ILG"/>
+                                    <constraint firstItem="L48-Hu-Tnp" firstAttribute="trailing" secondItem="9cX-nu-cbE" secondAttribute="trailingMargin" constant="8" id="qtb-rQ-HoA"/>
+                                    <constraint firstItem="L48-Hu-Tnp" firstAttribute="centerY" secondItem="9cX-nu-cbE" secondAttribute="centerY" id="yue-1g-5Ex"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="L48-Hu-Tnp" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="200" id="0OX-Pz-4Ol"/>
-                            <constraint firstItem="L48-Hu-Tnp" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Oco-0V-D13"/>
-                            <constraint firstItem="L48-Hu-Tnp" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="vPO-Cx-fRG"/>
+                            <constraint firstItem="9cX-nu-cbE" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="aYf-gl-4PR"/>
+                            <constraint firstItem="9cX-nu-cbE" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="itA-05-rX2"/>
+                            <constraint firstItem="9cX-nu-cbE" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="64" id="yvH-JG-Fek"/>
                         </constraints>
                     </view>
                     <connections>

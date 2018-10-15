@@ -33,10 +33,9 @@ class ViewController: UIViewController {
 		tableView.dataSource = self
 		tableView.embedView = aView
 		tableView.backgroundColor = #colorLiteral(red: 0.5725490451, green: 0, blue: 0.2313725501, alpha: 1)
-		tableView.position = .bottom
+		tableView.position = .top
 		tableView.isMargin = true
-		tableView.margin = 100
-		tableView.height = UITableView.automaticDimension
+		tableView.margin = 50
 		tableView.show()
 	}
 
